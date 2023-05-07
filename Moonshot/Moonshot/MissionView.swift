@@ -26,12 +26,26 @@ struct MissionView: View {
                         .frame(maxWidth: geometry.size.width * 0.6)
                         .padding(.top)
                     
+                    Text(mission.formattedLaunchDate)
+                        .font(.caption)
+                        .foregroundColor(.white.opacity(0.5))
+                    
                     VStack(alignment: .leading) {
+                        Rectangle()
+                            .frame(height: 2)
+                            .foregroundColor(.lightBackground)
+                            .padding(.vertical)
+                        
                         Text("Mission Highlights")
                             .font(.title.bold())
                             .padding(.bottom, 5)
                         
                         Text(mission.description)
+                        
+                        Rectangle()
+                            .frame(height: 2)
+                            .foregroundColor(.lightBackground)
+                            .padding(.vertical)
                     }
                     .padding(.horizontal)
                     
@@ -39,7 +53,7 @@ struct MissionView: View {
                         HStack {
                             ForEach(crew, id: \.role) { crewMember in
                                 NavigationLink {
-                                    Text("Astronaut details")
+                                    AstronautView(astronaut: crewMember.astronaut)
                                 } label: {
                                     HStack {
                                         Image(crewMember.astronaut.id)
@@ -60,6 +74,9 @@ struct MissionView: View {
                                                 .foregroundColor(.secondary)
                                         }
                                     }
+                                    .padding(.trailing)
+                                    .background(.lightBackground)
+                                    .clipShape(Capsule())
                                     .padding(.horizontal)
                                 }
                             }
