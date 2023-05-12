@@ -16,6 +16,14 @@ struct ContentView: View {
     
     @State private var showingAddScreen = false
     
+//    var hasValidInfo: Bool {
+//        if book.title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || book.author.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+//            return false
+//        }
+//        
+//        return true
+//    }
+    
     var body: some View {
         NavigationView {
             List {
@@ -30,8 +38,9 @@ struct ContentView: View {
                             VStack(alignment: .leading) {
                                 Text(book.title ?? "Unknown Title")
                                     .font(.headline)
+                                    .foregroundColor(book.rating == 1 ? .red : .primary)
                                 
-                                Text(book.author ?? "Unknowna Author")
+                                Text(book.author ?? "Unknown Author")
                                     .foregroundColor(.secondary)
                             }
                         }
