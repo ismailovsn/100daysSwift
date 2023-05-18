@@ -14,6 +14,8 @@
 		25FC59962A13745300CFF0E1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC59952A13745300CFF0E1 /* Location.swift */; };
 		25FC59982A138B7300CFF0E1 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC59972A138B7300CFF0E1 /* EditView.swift */; };
 		25FC599A2A14413100CFF0E1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC59992A14413100CFF0E1 /* Result.swift */; };
+		25FC599C2A14496A00CFF0E1 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC599B2A14496A00CFF0E1 /* ContentView-ViewModel.swift */; };
+		25FC599E2A144EA900CFF0E1 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC599D2A144EA900CFF0E1 /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		25FC59952A13745300CFF0E1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		25FC59972A138B7300CFF0E1 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		25FC59992A14413100CFF0E1 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		25FC599B2A14496A00CFF0E1 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		25FC599D2A144EA900CFF0E1 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			children = (
 				25FC59872A13728600CFF0E1 /* BucketlistApp.swift */,
 				25FC59892A13728600CFF0E1 /* ContentView.swift */,
+				25FC599B2A14496A00CFF0E1 /* ContentView-ViewModel.swift */,
+				25FC599D2A144EA900CFF0E1 /* FileManager-DocumentsDirectory.swift */,
 				25FC59992A14413100CFF0E1 /* Result.swift */,
 				25FC59972A138B7300CFF0E1 /* EditView.swift */,
 				25FC59952A13745300CFF0E1 /* Location.swift */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25FC598A2A13728600CFF0E1 /* ContentView.swift in Sources */,
+				25FC599E2A144EA900CFF0E1 /* FileManager-DocumentsDirectory.swift in Sources */,
+				25FC599C2A14496A00CFF0E1 /* ContentView-ViewModel.swift in Sources */,
 				25FC599A2A14413100CFF0E1 /* Result.swift in Sources */,
 				25FC59962A13745300CFF0E1 /* Location.swift in Sources */,
 				25FC59982A138B7300CFF0E1 /* EditView.swift in Sources */,
