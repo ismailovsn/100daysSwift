@@ -13,6 +13,7 @@
 		25FC59D12A1866C900CFF0E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FC59D02A1866C900CFF0E1 /* Preview Assets.xcassets */; };
 		25FC59DA2A1C272800CFF0E1 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC59D92A1C272800CFF0E1 /* MeView.swift */; };
 		25FC59DC2A1C277400CFF0E1 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC59DB2A1C277400CFF0E1 /* ProspectsView.swift */; };
+		25FC59DE2A1C622900CFF0E1 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC59DD2A1C622900CFF0E1 /* Prospect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		25FC59D02A1866C900CFF0E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25FC59D92A1C272800CFF0E1 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		25FC59DB2A1C277400CFF0E1 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		25FC59DD2A1C622900CFF0E1 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				25FC59C92A1866C800CFF0E1 /* HotProspectsApp.swift */,
 				25FC59CB2A1866C800CFF0E1 /* ContentView.swift */,
 				25FC59DB2A1C277400CFF0E1 /* ProspectsView.swift */,
+				25FC59DD2A1C622900CFF0E1 /* Prospect.swift */,
 				25FC59D92A1C272800CFF0E1 /* MeView.swift */,
 				25FC59CD2A1866C900CFF0E1 /* Assets.xcassets */,
 				25FC59CF2A1866C900CFF0E1 /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25FC59DC2A1C277400CFF0E1 /* ProspectsView.swift in Sources */,
+				25FC59DE2A1C622900CFF0E1 /* Prospect.swift in Sources */,
 				25FC59DA2A1C272800CFF0E1 /* MeView.swift in Sources */,
 				25FC59CC2A1866C800CFF0E1 /* ContentView.swift in Sources */,
 				25FC59CA2A1866C800CFF0E1 /* HotProspectsApp.swift in Sources */,
