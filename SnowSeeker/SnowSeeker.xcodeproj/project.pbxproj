@@ -11,6 +11,7 @@
 		25A3E3DF2A23FB9E00620398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3E3DE2A23FB9E00620398 /* ContentView.swift */; };
 		25A3E3E12A23FBA000620398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A3E3E02A23FBA000620398 /* Assets.xcassets */; };
 		25A3E3E42A23FBA000620398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A3E3E32A23FBA000620398 /* Preview Assets.xcassets */; };
+		25A3E3F12A2403B100620398 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 25A3E3F02A2403B100620398 /* resorts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		25A3E3DE2A23FB9E00620398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25A3E3E02A23FBA000620398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25A3E3E32A23FBA000620398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25A3E3F02A2403B100620398 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				25A3E3DC2A23FB9E00620398 /* SnowSeekerApp.swift */,
 				25A3E3DE2A23FB9E00620398 /* ContentView.swift */,
+				25A3E3F02A2403B100620398 /* resorts.json */,
 				25A3E3E02A23FBA000620398 /* Assets.xcassets */,
 				25A3E3E22A23FBA000620398 /* Preview Content */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A3E3F12A2403B100620398 /* resorts.json in Resources */,
 				25A3E3E42A23FBA000620398 /* Preview Assets.xcassets in Resources */,
 				25A3E3E12A23FBA000620398 /* Assets.xcassets in Resources */,
 			);
